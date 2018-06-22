@@ -1,0 +1,258 @@
+.head{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    padding-bottom: 0.57rem;    
+    .header{
+        width: 100%;
+        height: 0.52rem;
+        padding-top: 0.16rem;
+        display: flex;
+        .imgs{
+            width:0.45rem ;
+            height: 0.45rem;
+            margin-right: 0.08rem;
+            margin-left:0.2rem; 
+        }
+        .box{
+            display: flex;
+            flex-direction: column;
+            .one{
+                display: flex;
+                .LIs{
+                    font-size:0.06rem ;
+                    margin-right: 0.02rem;
+                    color: #2d2d2d;
+                }
+                .thirteen {
+                    display: block;
+                    color:#1a1b26 ;
+                    border-radius: 4px;
+                    line-height: 0px;
+                    color: #1a1b26;
+                    padding: 7px 2px;
+                    background: #fed32f;
+                }
+            }
+            .two{
+                margin-top: 0.05rem;
+            }
+        }
+    }
+    .section{
+        margin-top: 0.1rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 0.1rem;
+        li{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img{
+                width:0.35rem ;
+                margin-bottom: 0.06rem;
+                height:0.35rem;
+            }
+        }
+    }
+    .flowr{
+        width: 3.47rem;
+        height: 0.98rem;
+        margin: 0 auto;
+        background-image: url(../img/bg1.png);
+        background-size: 3.47rem 0.98rem;
+        display: flex;
+        color: #fff;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0.18rem;
+        .cyn{
+            display: flex;
+            img{
+                margin-left: 0.07rem;
+                margin-right: 0.04rem;
+            }
+            .cynthia{
+                display: flex;
+                flex-direction: column;
+                color: #fff;
+                span{
+                    display: block;
+                }
+                .first{
+                    margin-top: 0.068rem;
+                    font-size:0.12rem;
+                }
+                .last{
+                    margin-top:0.2rem;
+                }
+            }
+        }
+        p{
+            display: flex;
+            align-content: center;
+            margin-right: 0.15rem;
+        }
+    }
+    .double{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        .dou{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.1rem;
+            .three{
+                margin-left:0.16rem ;
+                color:#0a0a0a;
+            }
+            .four{
+                color: #a9a9a9;
+                display: flex;
+                align-items: center;
+                margin-right: 0.14rem;
+            }
+        }
+        .chess{
+            width:3.46rem ;
+            margin: 0 auto 0.06rem;
+            display: flex;
+            justify-content: space-between;
+            .gobang{
+                width:1.74rem ;
+                height: 0.84rem;
+                display: flex;
+                color:#fff;
+                background: url(../img/bg2.png) top center;
+                img{
+                    width:0.5rem ;
+                    height: 0.5rem;
+                    margin:0.16rem 0.12rem 0 0.13rem ;
+                }
+                p{
+                    display: flex;
+                    flex-direction:column;
+                    justify-content: space-around;
+                    .one{
+                        padding-top: .14rem;
+                    }
+                    .two{
+                        margin-bottom: 0.3rem;
+                    }
+                }
+            }
+            .game{
+                width:1.67rem ;
+                height: 0.84rem;
+                display: flex;
+                color:#fff;
+                background: url(../img/bg3.png) center;   
+                img{
+                    width:0.5rem ;
+                    height: 0.5rem;
+                    margin:0.16rem 0.12rem 0 0.13rem ;
+                }
+                p{
+                    display: flex;
+                    flex-direction:column;
+                    justify-content: space-around;
+                    .one{
+                        padding-top: .14rem;
+                    }
+                    .two{
+                        margin-bottom: 0.3rem;
+                    }
+                }             
+            }
+            .pool{
+                background: url(../img/bg4.png) center;                   
+            }
+            .more{
+                background: url(../img/bg5.png)left center;                   
+            }
+        }
+    }
+    .group{
+        width: 3.46rem;
+        margin: 0 auto;
+        .one{
+            width: 3.46rem;
+            height:1.05rem;
+            color: #fff;
+            background: url(../img/bg6.png)left center;
+            margin-bottom: 0.07rem;
+            p{
+                font-size: 0.17rem;
+                padding-left: 0.14rem;
+                padding-top: 0.16rem;
+            }
+            span{
+                margin-top: 0.08rem;
+                display: block;
+                margin-left: 0.14rem;
+            }
+            img{
+                width: 0.57rem;
+                height: 0.34rem;
+                margin-top: 0.08rem;
+                margin-left: 0.14rem;
+            }
+        }
+        .two{
+            background: url(../img/bg7.png)left center;         
+        }
+        .three{
+            background: url(../img/bg8.png)left center;         
+        }
+        .samll{
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 0.07rem;            
+            .four{
+                width:1.74rem ;
+                height: 1.05rem;
+                color:#fff;
+                background: url(../img/bg9.png) left top;
+                p{
+                    font-size: 0.17rem;
+                    padding-left: 0.14rem;
+                    padding-top: 0.16rem;
+                }
+                span{
+                    margin-top: 0.08rem;
+                    display: block;
+                    margin-left: 0.14rem;
+                }
+            }
+            .five{
+                width:1.67rem ;
+                height: 1.05rem;
+                color:#fff;
+                background: url(../img/bg10.png)  left top;                
+                p{
+                    font-size: 0.17rem;
+                    padding-left: 0.14rem;
+                    padding-top: 0.16rem;
+                }
+                span{
+                    margin-top: 0.08rem;
+                    display: block;
+                    margin-left: 0.14rem;
+                }
+            }
+            .six{
+                background: url(../img/bg11.png)  left top;                               
+            }
+            .seven{
+                background: url(../img/bg12.png)  left top;                               
+            }
+        }
+        // .fiex{
+        //     margin-bottom:;
+        // }
+    }
+}
+
+
